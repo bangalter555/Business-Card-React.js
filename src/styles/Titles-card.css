@@ -1,0 +1,14 @@
+.titles-card h3 {
+  display: block;
+  margin: 0;
+}
+
+.profession-name {
+  color: #d47429;
+  margin: 0;
+}
+
+.titles-card {
+  height: 10%;
+  width: 100%;
+}

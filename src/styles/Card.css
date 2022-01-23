@@ -1,0 +1,14 @@
+.profile-card {
+  width: 20rem;
+  height: 36.5rem;
+  background-color: #222;
+  color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 1%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 11px;
+}
