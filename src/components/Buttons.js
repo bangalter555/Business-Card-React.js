@@ -3,18 +3,18 @@ import "../styles/Buttons.css";
 const clickingOnLinkedinBtn = () => {
   document.addEventListener("click", (e) => {
     let target = e.target;
-    if (target.matches(".linkedin-btn"))
+    if (target.matches(".fa-linkedin"))
       window.open(
         "https://www.linkedin.com/in/esteban-lopez-alonzo-0615431b9/"
       );
   });
 };
 
-export default function LinkedInButton() {
+export default function Buttons(props) {
   clickingOnLinkedinBtn();
   return (
-    <button className="linkedin-btn btn">
-      <i className="fab fa-linkedin"></i> LinkedIn
+    <button id={props.id} className="btn">
+      {props.ReactElement}
     </button>
   );
 }
